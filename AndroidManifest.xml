@@ -19,7 +19,7 @@
 -->
 <manifest
     xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.launcher">
+    package="net.multipleandroidcoding.catapult">
 
     <original-package android:name="com.android.launcher2" />
 
@@ -62,13 +62,13 @@
     <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS" />
 
     <application
-        android:name="com.android.launcher2.LauncherApplication"
+        android:name="net.multipleandroidcoding.catapult.LauncherApplication"
         android:label="@string/application_name"
         android:icon="@drawable/ic_launcher_home"
         android:hardwareAccelerated="@bool/config_hardwareAccelerated"
         android:largeHeap="@bool/config_largeHeap">
         <activity
-            android:name="com.android.launcher2.Launcher"
+            android:name="net.multipleandroidcoding.catapult.Launcher"
             android:launchMode="singleTask"
             android:clearTaskOnLaunch="true"
             android:stateNotNeeded="true"
@@ -84,7 +84,7 @@
         </activity>
 
         <activity
-            android:name="com.android.launcher2.WallpaperChooser"
+            android:name="net.multipleandroidcoding.catapult.WallpaperChooser"
             style="@style/Theme.WallpaperPicker"
             android:label="@string/pick_wallpaper"
             android:icon="@drawable/ic_launcher_wallpaper"
@@ -98,7 +98,7 @@
                 android:resource="@xml/wallpaper_picker_preview" />
         </activity>
 
-        <activity android:name="com.android.launcher2.RocketLauncher"
+        <activity android:name="net.multipleandroidcoding.catapult.RocketLauncher"
             android:label="@string/dream_name"
             android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
             <intent-filter>
@@ -110,7 +110,7 @@
 
         <!-- Intent received used to prepopulate the default workspace. -->
         <receiver
-            android:name="com.android.launcher2.PreloadReceiver"
+            android:name="net.multipleandroidcoding.catapult.PreloadReceiver"
             android:permission="com.android.launcher.permission.PRELOAD_WORKSPACE">
             <intent-filter>
                 <action android:name="com.android.launcher.action.PRELOAD_WORKSPACE" />
@@ -119,7 +119,7 @@
 
         <!-- Intent received used to install shortcuts from other applications -->
         <receiver
-            android:name="com.android.launcher2.InstallShortcutReceiver"
+            android:name="net.multipleandroidcoding.catapult.InstallShortcutReceiver"
             android:permission="com.android.launcher.permission.INSTALL_SHORTCUT">
             <intent-filter>
                 <action android:name="com.android.launcher.action.INSTALL_SHORTCUT" />
@@ -128,7 +128,7 @@
 
         <!-- Intent received used to uninstall shortcuts from other applications -->
         <receiver
-            android:name="com.android.launcher2.UninstallShortcutReceiver"
+            android:name="net.multipleandroidcoding.catapult.UninstallShortcutReceiver"
             android:permission="com.android.launcher.permission.UNINSTALL_SHORTCUT">
             <intent-filter>
                 <action android:name="com.android.launcher.action.UNINSTALL_SHORTCUT" />
@@ -137,8 +137,8 @@
 
         <!-- The settings provider contains Home's data, like the workspace favorites -->
         <provider
-            android:name="com.android.launcher2.LauncherProvider"
-            android:authorities="com.android.launcher2.settings"
+            android:name="net.multipleandroidcoding.catapult.LauncherProvider"
+            android:authorities="net.multipleandroidcoding.catapult.settings"
             android:writePermission="com.android.launcher.permission.WRITE_SETTINGS"
             android:readPermission="com.android.launcher.permission.READ_SETTINGS" />
 
