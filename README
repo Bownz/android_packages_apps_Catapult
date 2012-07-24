@@ -1,11 +1,18 @@
-LG P506 Jelly Bean Setup
+android_packages_CraftLauncher
+==============================
 
-Copy/paste it WORKING_DIR/.repo/local_manifest.xml
+Craft Launcher Sources
 
+Installation Instructions:
+1. Open .repo/local_manifest.xml (if it doesnt exist, make it)
+2. Add this line: 
+<project path="packages/apps/CraftLauncher" name="LG-Android-Coding/android_packages_CraftLauncher" remote="github" revision="jellybean" />
+
+How to make a local_manifest.xml:
+1. Open your favorite text editor
+2. Add these lines:
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="device/lge/msm7x27-common" name="lgics/cm_device_lge_msm7x27-common" remote="github" revision="jellybean" />
-  <project path="device/lge/p506" name="lgics/cm_device_lge_p506" remote="github" revision="jellybean" />
-  <project path="kernel/lge/msm7x27" name="lgics/lge-kernel-msm7x27" remote="github" revision="jellybean" />
-  <project path="vendor/lge" name="lgics/cm_vendor_lge" remote="github" revision="jellybean" />
+
 </manifest>
+3. Add other lines for other repos between <manifest> and </manifest>
