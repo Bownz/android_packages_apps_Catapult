@@ -9,8 +9,7 @@
 #
 # Unless required by applicable law or agreed to in writing, software
 # distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.# See the License for the specific language governing permissions and
 # limitations under the License.
 #
 
@@ -24,13 +23,14 @@ LOCAL_STATIC_JAVA_LIBRARIES := android-common android-support-v13
 LOCAL_SRC_FILES := $(call all-java-files-under, src) $(call all-renderscript-files-under, src)
 
 
-LOCAL_PACKAGE_NAME := Launcher2
+LOCAL_PACKAGE_NAME := Catapult
 LOCAL_CERTIFICATE := shared
 
-LOCAL_OVERRIDES_PACKAGES := Home
+LOCAL_OVERRIDES_PACKAGES := Home Launcher2 Trebuchet
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
 include $(BUILD_PACKAGE)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
+
