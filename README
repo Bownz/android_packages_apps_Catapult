@@ -3,7 +3,7 @@ Craft Launcher Sources
 Installation Instructions:
 1. Open .repo/local_manifest.xml (if it doesnt exist, make it)
 2. Add this line: 
-<project path="packages/apps/CraftLauncher" name="LG-Android-Coding/android_packages_CraftLauncher" remote="github" revision="jellybean" />
+<project path="packages/apps/CraftLauncher" name="LG-Android-Coding/android_packages_Catapult" remote="github" revision="jellybean" />
 
 How to make a local_manifest.xml:
 1. Open your favorite text editor
