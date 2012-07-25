@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.android.launcher2.stress;
+package net.multipleandroidcoding.catapult2.stress;
 
 
-import com.android.launcher2.Launcher;
+import net.multipleandroidcoding.catapult2.Launcher;
 
 import android.content.pm.ActivityInfo;
 import android.os.SystemClock;
@@ -26,7 +26,7 @@ import android.test.RepetitiveTest;
 import android.util.Log;
 
 /**
- * Run rotation stress test using Launcher2 for 50 iterations.
+ * Run rotation stress test using Catapult for 50 iterations.
  */
 public class LauncherRotationStressTest extends ActivityInstrumentationTestCase2<Launcher> {
 

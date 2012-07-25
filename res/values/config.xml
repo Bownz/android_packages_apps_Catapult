@@ -5,9 +5,6 @@
     <bool name="allow_rotation">false</bool>
 
     <bool name="config_cyanogenmod">false</bool>
-    
-<!-- DragController -->
-    <integer name="config_flingToDeleteMinVelocity">-1500</integer>
 
 <!-- AllApps/Customize/AppsCustomize -->
     <!-- Which default transition effect to use on the AppsCustomize -->
@@ -47,6 +44,11 @@
     <!-- The slope, in percent, of the drag movement needed to drag an item out of
          AppsCustomize (y / x * 100%)  -->
     <integer name="config_appsCustomizeDragSlopeThreshold">150</integer>
+    
+    <!-- Parameters controlling the animation for when an item is dropped on the home screen,
+     and it animates from its old position to the new one. -->
+    <integer name="config_dropAnimMinDuration">100</integer>
+    <integer name="config_dropAnimMaxDuration">500</integer>
 
     <!-- Batch loading for loading in LauncherModel -->
     <integer name="config_allAppsBatchLoadDelay">0</integer>
@@ -55,6 +57,8 @@
 <!-- Workspace -->
     <!-- Whether or not the drop targets drop down as opposed to fade in -->
     <bool name="config_useDropTargetDownTransition">true</bool>
+    <!-- Which default transition effect to use on the workspace -->
+    <string name="config_workspaceDefaultTransitionEffect">Standard</string>
     <!-- Whether or not to fade the side pages -->
     <bool name="config_workspaceFadeAdjacentScreens">false</bool>
 
@@ -75,16 +79,23 @@
     <!-- The alpha value at which to show the most recent drop visualization outline. -->
     <integer name="config_dragOutlineMaxAlpha">128</integer>
 
-    <!-- Parameters controlling the animation for when an item is dropped on the home screen,
-         and it animates from its old position to the new one. -->
-    <integer name="config_dropAnimMinDuration">100</integer>
-    <integer name="config_dropAnimMaxDuration">500</integer>
-
     <!-- The duration of the UserFolder opening and closing animation -->
     <integer name="config_folderAnimDuration">120</integer>
 
     <!-- The distance at which the animation should take the max duration -->
     <integer name="config_dropAnimMaxDist">800</integer>
+    
+    <!-- DragController -->
+    <integer name="config_flingToDeleteMinVelocity">-1500</integer>
+
+    <!-- Workspace screens are cached to bitmaps only when they're smaller than a certain size
+         (maxScaleForUsingWorkspaceScreenBitmapCache), since the bitmap cache itself is smaller
+         than the view itself (workspaceScreenBitmapCacheScale)  -->
+    <integer name="config_workspaceScreenBitmapCacheScale">20</integer>
+    <integer name="config_maxScaleForUsingWorkspaceScreenBitmapCache">50</integer>
+
+    <!-- When shrinking the workspace, this is the percentage of its original size. -->
+    <integer name="config_workspaceShrinkPercent">17</integer>
 
     <!-- Properties controlling the workspace fade-out during dragging -->
     <integer name="config_dragFadeOutAlpha">80</integer>

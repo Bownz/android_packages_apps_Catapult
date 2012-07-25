@@ -149,7 +149,7 @@ public final class Launcher extends Activity
 
     // The Intent extra that defines whether to ignore the launch animation
     static final String INTENT_EXTRA_IGNORE_LAUNCH_ANIMATION =
-            "com.android.launcher.intent.extra.shortcut.INGORE_LAUNCH_ANIMATION";
+            "net.multipleandroidcoding.catapult.intent.extra.shortcut.INGORE_LAUNCH_ANIMATION";
 
     // Type: int
     private static final String RUNTIME_STATE_CURRENT_SCREEN = "launcher.current_screen";
@@ -174,11 +174,11 @@ public final class Launcher extends Activity
     // Type: parcelable
     private static final String RUNTIME_STATE_PENDING_ADD_WIDGET_INFO = "launcher.add_widget_info";
 
-    private static final String TOOLBAR_ICON_METADATA_NAME = "com.android.launcher.toolbar_icon";
+    private static final String TOOLBAR_ICON_METADATA_NAME = "net.multipleandroidcoding.catapult.toolbar_icon";
     private static final String TOOLBAR_SEARCH_ICON_METADATA_NAME =
-            "com.android.launcher.toolbar_search_icon";
+            "net.multipleandroidcoding.catapult.toolbar_search_icon";
     private static final String TOOLBAR_VOICE_SEARCH_ICON_METADATA_NAME =
-            "com.android.launcher.toolbar_voice_search_icon";
+            "net.multipleandroidcoding.catapult.toolbar_voice_search_icon";
 
     /** The different states that Launcher can be in. */
     private enum State { WORKSPACE, APPS_CUSTOMIZE, APPS_CUSTOMIZE_SPRING_LOADED };

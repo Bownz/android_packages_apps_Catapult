@@ -93,6 +93,24 @@
         <attr name="sourceImageViewId" format="integer" />
     </declare-styleable>
 
+    <!-- PagedViewIcon specific attributes. These attributes are used to customize
+         a PagedViewIcon view in XML files. -->
+    <declare-styleable name="PagedViewIcon">
+        <!-- The blur color of the holographic outline -->
+        <attr name="blurColor" format="color" />
+        <!-- The outline color of the holographic outline -->
+        <attr name="outlineColor" format="color" />
+    </declare-styleable>
+
+    <!-- PagedViewWidget specific attributes. These attributes are used to
+         customize a PagedViewWidget view in XML files. -->
+    <declare-styleable name="PagedViewWidget">
+        <!-- The blur color of the holographic outline -->
+        <attr name="blurColor" />
+        <!-- The outline color of the holographic outline -->
+        <attr name="outlineColor" />
+    </declare-styleable>
+
     <!-- PagedView specific attributes. These attributes are used to customize
          a PagedView view in XML files. -->
     <declare-styleable name="PagedView">
@@ -162,5 +180,27 @@
     <declare-styleable name="CustomClingTitleText">
     </declare-styleable>
     <declare-styleable name="CustomClingText">
+    </declare-styleable>
+    
+    <declare-styleable name="NumberPickerPreference">
+        <attr name="max" format="integer" />
+        <attr name="min" format="integer" />
+        <attr name="maxExternal" format="string" />
+        <attr name="minExternal" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="DoubleNumberPickerPreference">
+        <attr name="defaultValue1" format="integer" />
+        <attr name="defaultValue2" format="integer" />
+        <attr name="max1" format="integer" />
+        <attr name="min1" format="integer" />
+        <attr name="max2" format="integer" />
+        <attr name="min2" format="integer" />
+        <attr name="maxExternal1" format="string" />
+        <attr name="minExternal1" format="string" />
+        <attr name="maxExternal2" format="string" />
+        <attr name="minExternal2" format="string" />
+        <attr name="pickerTitle1" format="string" />
+        <attr name="pickerTitle2" format="string" />
     </declare-styleable>
 </resources>

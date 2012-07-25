@@ -15,7 +15,7 @@
 -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.launcher.stress.launcherrotation">
+    package="net.multipleandroidcoding.catapult.stress.launcherrotation">
 
     <application>
         <uses-library android:name="android.test.runner" />
@@ -23,7 +23,7 @@
 
     <instrumentation
         android:name="android.test.InstrumentationTestRunner"
-        android:targetPackage="com.android.launcher"
-        android:label="Rotation stress test using Launcher2">
+        android:targetPackage="net.multipleandroidcoding.catapult"
+        android:label="Rotation stress test using Catapult">
     </instrumentation>
 </manifest>

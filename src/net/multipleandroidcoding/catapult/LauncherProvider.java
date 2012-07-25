@@ -68,7 +68,7 @@ public class LauncherProvider extends ContentProvider {
 
     private static final int DATABASE_VERSION = 12;
 
-    static final String AUTHORITY = "com.android.launcher2.settings";
+    static final String AUTHORITY = "net.multipleandroidcoding.catapult2.settings";
 
     static final String TABLE_FAVORITES = "favorites";
     static final String PARAMETER_NOTIFY = "notify";
@@ -76,7 +76,7 @@ public class LauncherProvider extends ContentProvider {
             "DB_CREATED_BUT_DEFAULT_WORKSPACE_NOT_LOADED";
 
     private static final String ACTION_APPWIDGET_DEFAULT_WORKSPACE_CONFIGURE =
-            "com.android.launcher.action.APPWIDGET_DEFAULT_WORKSPACE_CONFIGURE";
+            "net.multipleandroidcoding.catapult.action.APPWIDGET_DEFAULT_WORKSPACE_CONFIGURE";
 
     /**
      * {@link Uri} triggered at any registered {@link android.database.ContentObserver} when

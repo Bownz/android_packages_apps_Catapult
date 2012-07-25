@@ -16,43 +16,45 @@
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:launcher="http://schemas.android.com/apk/res/net.multipleandroidcoding.catapult">
+    
     <!-- UI -->
     <PreferenceCategory android:title="@string/preferences_interface_title">
-        <!-- Homescreen -->
+    
+    <!-- Homescreen -->
         <PreferenceScreen android:key="ui_homescreen"
             android:title="@string/preferences_interface_homescreen_title">
             <PreferenceCategory android:title="@string/preferences_interface_homescreen_general_category">
-                <com.cyanogenmod.trebuchet.preference.NumberPickerPreference android:key="ui_homescreen_screens"
+                <net.multipleandroidcoding.catapult.preference.NumberPickerPreference android:key="ui_homescreen_screens"
                     android:title="@string/preferences_interface_homescreen_general_screens_title"
                     android:summary="@string/preferences_interface_homescreen_general_screens_summary"
                     android:defaultValue="5"
                     launcher:max="7"
                     launcher:min="1" />
-                <com.cyanogenmod.trebuchet.preference.NumberPickerPreference android:key="ui_homescreen_default_screen"
+                <net.multipleandroidcoding.catapult.preference.NumberPickerPreference android:key="ui_homescreen_default_screen"
                     android:title="@string/preferences_interface_homescreen_general_default_screen_title"
                     android:summary="@string/preferences_interface_homescreen_general_default_screen_summary"
                     android:defaultValue="3"
                     launcher:maxExternal="ui_homescreen_screens"
                     launcher:max="7"
                     launcher:min="1" />
-                <com.cyanogenmod.trebuchet.preference.DoubleNumberPickerPreference android:key="ui_homescreen_grid"
+                <net.multipleandroidcoding.catapult.preference.DoubleNumberPickerPreference android:key="ui_homescreen_grid"
                     android:title="@string/preferences_interface_homescreen_general_grid_title"
                     android:summary="@string/preferences_interface_homescreen_general_grid_summary"
                     launcher:pickerTitle1="@string/preferences_interface_homescreen_general_grid_rows_title"
                     launcher:pickerTitle2="@string/preferences_interface_homescreen_general_grid_columns_title"
-                    launcher:defaultValue1="@integer/config_workspaceRows"
-                    launcher:defaultValue2="@integer/config_workspaceColumns"
+                    launcher:defaultValue1="@integer/cell_count_x"
+                    launcher:defaultValue2="@integer/cell_count_y"
                     launcher:max1="7"
                     launcher:min1="3"
                     launcher:max2="7"
                     launcher:min2="3" />
-                <com.cyanogenmod.trebuchet.preference.NumberPickerPreference android:key="ui_homescreen_screen_padding_vertical"
+                <net.multipleandroidcoding.catapult.preference.NumberPickerPreference android:key="ui_homescreen_screen_padding_vertical"
                     android:title="@string/preferences_interface_homescreen_general_screen_padding_vertical_title"
                     android:summary="@string/preferences_interface_homescreen_general_screen_padding_vertical_summary"
                     android:defaultValue="0"
                     launcher:max="10"
                     launcher:min="0" />
-                <com.cyanogenmod.trebuchet.preference.NumberPickerPreference android:key="ui_homescreen_screen_padding_horizontal"
+                <net.multipleandroidcoding.catapult.preference.NumberPickerPreference android:key="ui_homescreen_screen_padding_horizontal"
                     android:title="@string/preferences_interface_homescreen_general_screen_padding_horizontal_title"
                     android:summary="@string/preferences_interface_homescreen_general_screen_padding_horizontal_summary"
                     android:defaultValue="0"
@@ -79,7 +81,7 @@
                 <CheckBoxPreference android:key="ui_homescreen_scrolling_fade_adjacent_screens"
                     android:title="@string/preferences_interface_homescreen_scrolling_fade_adjacent_screens_title"
                     android:summary="@string/preferences_interface_homescreen_scrolling_fade_adjacent_screens_summary"
-                    android:defaultValue="@bool/config_workspaceDefualtFadeInAdjacentScreens" />
+                    android:defaultValue="@bool/config_workspaceFadeAdjacentScreens" />
                 <CheckBoxPreference android:key="ui_homescreen_scrolling_scroll_wallpaper"
                     android:title="@string/preferences_interface_homescreen_scrolling_scroll_wallpaper_title"
                     android:summary="@string/preferences_interface_homescreen_scrolling_scroll_wallpaper_summary"
@@ -154,7 +156,7 @@
             android:title="@string/preferences_interface_general_title">
             <CheckBoxPreference android:key="ui_general_orientation"
                 android:title="@string/preferences_interface_general_orientation_title"
-                android:defaultValue="@bool/config_defaultAutoRotate" />
+                android:defaultValue="@bool/allow_rotation" />
         </PreferenceScreen>
     </PreferenceCategory>
 

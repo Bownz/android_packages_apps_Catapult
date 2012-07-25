@@ -21,32 +21,32 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     package="net.multipleandroidcoding.catapult">
 
-    <original-package android:name="com.android.launcher2" />
+    <original-package android:name="net.multipleandroidcoding.catapult" />
 
     <permission
-        android:name="com.android.launcher.permission.PRELOAD_WORKSPACE"
+        android:name="net.multipleandroidcoding.catapult.permission.PRELOAD_WORKSPACE"
         android:permissionGroup="android.permission-group.SYSTEM_TOOLS"
         android:protectionLevel="system|signature" />
     <permission
-        android:name="com.android.launcher.permission.INSTALL_SHORTCUT"
+        android:name="net.multipleandroidcoding.catapult.permission.INSTALL_SHORTCUT"
         android:permissionGroup="android.permission-group.SYSTEM_TOOLS"
         android:protectionLevel="normal"
         android:label="@string/permlab_install_shortcut"
         android:description="@string/permdesc_install_shortcut" />
     <permission
-        android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT"
+        android:name="net.multipleandroidcoding.catapult.permission.UNINSTALL_SHORTCUT"
         android:permissionGroup="android.permission-group.SYSTEM_TOOLS"
         android:protectionLevel="normal"
         android:label="@string/permlab_uninstall_shortcut"
         android:description="@string/permdesc_uninstall_shortcut"/>
     <permission
-        android:name="com.android.launcher.permission.READ_SETTINGS"
+        android:name="net.multipleandroidcoding.catapult.permission.READ_SETTINGS"
         android:permissionGroup="android.permission-group.SYSTEM_TOOLS"
         android:protectionLevel="normal"
         android:label="@string/permlab_read_settings"
         android:description="@string/permdesc_read_settings"/>
     <permission
-        android:name="com.android.launcher.permission.WRITE_SETTINGS"
+        android:name="net.multipleandroidcoding.catapult.permission.WRITE_SETTINGS"
         android:permissionGroup="android.permission-group.SYSTEM_TOOLS"
         android:protectionLevel="normal"
         android:label="@string/permlab_write_settings"
@@ -58,8 +58,8 @@
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.BIND_APPWIDGET" />
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
-    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
-    <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="net.multipleandroidcoding.catapult.permission.READ_SETTINGS" />
+    <uses-permission android:name="net.multipleandroidcoding.catapult.permission.WRITE_SETTINGS" />
 
     <application
         android:name="net.multipleandroidcoding.catapult.LauncherApplication"
@@ -111,27 +111,27 @@
         <!-- Intent received used to prepopulate the default workspace. -->
         <receiver
             android:name="net.multipleandroidcoding.catapult.PreloadReceiver"
-            android:permission="com.android.launcher.permission.PRELOAD_WORKSPACE">
+            android:permission="net.multipleandroidcoding.catapult.permission.PRELOAD_WORKSPACE">
             <intent-filter>
-                <action android:name="com.android.launcher.action.PRELOAD_WORKSPACE" />
+                <action android:name="net.multipleandroidcoding.catapult.action.PRELOAD_WORKSPACE" />
             </intent-filter>
         </receiver>
 
         <!-- Intent received used to install shortcuts from other applications -->
         <receiver
             android:name="net.multipleandroidcoding.catapult.InstallShortcutReceiver"
-            android:permission="com.android.launcher.permission.INSTALL_SHORTCUT">
+            android:permission="net.multipleandroidcoding.catapult.permission.INSTALL_SHORTCUT">
             <intent-filter>
-                <action android:name="com.android.launcher.action.INSTALL_SHORTCUT" />
+                <action android:name="net.multipleandroidcoding.catapult.action.INSTALL_SHORTCUT" />
             </intent-filter>
         </receiver>
 
         <!-- Intent received used to uninstall shortcuts from other applications -->
         <receiver
             android:name="net.multipleandroidcoding.catapult.UninstallShortcutReceiver"
-            android:permission="com.android.launcher.permission.UNINSTALL_SHORTCUT">
+            android:permission="net.multipleandroidcoding.catapult.permission.UNINSTALL_SHORTCUT">
             <intent-filter>
-                <action android:name="com.android.launcher.action.UNINSTALL_SHORTCUT" />
+                <action android:name="net.multipleandroidcoding.catapult.action.UNINSTALL_SHORTCUT" />
             </intent-filter>
         </receiver>
 
@@ -139,8 +139,8 @@
         <provider
             android:name="net.multipleandroidcoding.catapult.LauncherProvider"
             android:authorities="net.multipleandroidcoding.catapult.settings"
-            android:writePermission="com.android.launcher.permission.WRITE_SETTINGS"
-            android:readPermission="com.android.launcher.permission.READ_SETTINGS" />
+            android:writePermission="net.multipleandroidcoding.catapult.permission.WRITE_SETTINGS"
+            android:readPermission="net.multipleandroidcoding.catapult.permission.READ_SETTINGS" />
 
         <meta-data android:name="android.nfc.disable_beam_default"
                        android:value="true" />

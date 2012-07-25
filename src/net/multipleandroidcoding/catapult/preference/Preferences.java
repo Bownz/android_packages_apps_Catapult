@@ -27,7 +27,7 @@ import net.multipleandroidcoding.catapult.LauncherApplication;
 
 import net.multipleandroidcoding.catapult.R;
 
-/*public class Preferences extends PreferenceActivity {
+public class Preferences extends PreferenceActivity {
 
     private static final String TAG = "Launcher.Preferences";
 
@@ -57,4 +57,4 @@ import net.multipleandroidcoding.catapult.R;
         Preference version = findPreference("application_version");
         version.setTitle(getString(R.string.application_name));
     }
-}*/
+}
