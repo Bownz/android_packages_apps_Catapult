@@ -4,15 +4,31 @@
     <bool name="is_large_screen">false</bool>
     <bool name="allow_rotation">false</bool>
 
+    <bool name="config_cyanogenmod">false</bool>
+    
 <!-- DragController -->
     <integer name="config_flingToDeleteMinVelocity">-1500</integer>
 
 <!-- AllApps/Customize/AppsCustomize -->
+    <!-- Which default transition effect to use on the AppsCustomize -->
+    <string name="config_drawerDefaultTransitionEffect">Stack</string>
     <!-- The alpha of the AppsCustomize bg in spring loaded mode -->
     <integer name="config_appsCustomizeSpringLoadedBgAlpha">45</integer>
+    <!-- Fade in/out duration of icons being dragged from the trays -->
+    <integer name="config_dragAppsCustomizeIconFadeInDuration">150</integer>
+    <integer name="config_dragAppsCustomizeIconFadeOutDuration">200</integer>
+    <integer name="config_dragAppsCustomizeIconFadeAlpha">100</integer>
     <integer name="config_workspaceUnshrinkTime">300</integer>
     <!-- Out of 100, the percent to shrink the workspace during spring loaded mode. -->
     <integer name="config_workspaceSpringLoadShrinkPercentage">80</integer>
+    <!-- When items are dropped on the mini screens in customize mode, we have a bounce animation
+         of the bright green hover outline, and then fade out the outline at the end. These are
+         the values used in that animation -->
+    <integer name="config_screenOnDropScalePercent">120</integer>
+    <integer name="config_screenOnDropScaleUpDuration">200</integer>
+    <integer name="config_screenOnDropScaleDownDuration">200</integer>
+    <integer name="config_screenOnDropAlphaFadeDelay">350</integer>
+    <integer name="config_screenOnDropAlphaFadeDuration">50</integer>
 
     <!-- Fade/zoom in/out duration & scale in the AllApps transition.
          Note: This should be less than the workspaceShrinkTime as they happen together. -->
@@ -44,6 +60,13 @@
 
     <!-- The transition duration for the background of the drop targets -->
     <integer name="config_dropTargetBgTransitionDuration">0</integer>
+
+    <integer name="config_crosshairsFadeInTime">600</integer>
+
+    <!--  When dragging an item on the workspace, how much bigger (in pixels) the dragged view
+          should be, as compared to the original view. If 0, it will not be scaled at all.
+          Should be an even number, for pixel alignment. -->
+    <integer name="config_dragViewExtraPixels">40</integer>
 
     <!-- The duration (in ms) of the fade animation on the object outlines, used when
          we are dragging objects around on the home screen. -->
