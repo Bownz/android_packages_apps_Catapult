@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher2;
+package net.multipleandroidcoding.catapult;
 
 import android.content.res.Configuration;
 import android.view.KeyEvent;
@@ -24,7 +24,7 @@ import android.view.ViewParent;
 import android.widget.TabHost;
 import android.widget.TabWidget;
 
-import com.android.launcher.R;
+import net.multipleandroidcoding.catapult.R;
 
 import java.util.ArrayList;
 import java.util.Collections;

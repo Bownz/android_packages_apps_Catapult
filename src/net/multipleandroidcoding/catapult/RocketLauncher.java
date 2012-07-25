@@ -18,7 +18,7 @@
 // background stellar matter:
 //  - add some slow horizontal parallax motion, or perhaps veeeeery gradual outward drift
 
-package com.android.launcher2;
+package net.multipleandroidcoding.catapult;
 
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
@@ -39,7 +39,7 @@ import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 
-import com.android.launcher.R;
+import net.multipleandroidcoding.catapult.R;
 
 import java.util.HashMap;
 import java.util.Random;

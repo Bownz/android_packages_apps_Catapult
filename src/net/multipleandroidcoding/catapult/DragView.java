@@ -15,7 +15,7 @@
  */
 
 
-package com.android.launcher2;
+package net.multipleandroidcoding.catapult;
 
 import android.animation.ValueAnimator;
 import android.animation.ValueAnimator.AnimatorUpdateListener;
@@ -30,7 +30,7 @@ import android.graphics.Rect;
 import android.view.View;
 import android.view.animation.DecelerateInterpolator;
 
-import com.android.launcher.R;
+import net.multipleandroidcoding.catapult.R;
 
 public class DragView extends View {
     private static float sDragAlpha = 1f;

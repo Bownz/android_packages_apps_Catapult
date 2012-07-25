@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher2;
+package net.multipleandroidcoding.catapult;
 
 import java.util.List;
 
@@ -33,7 +33,7 @@ import android.widget.ImageView;
 import android.widget.ListAdapter;
 import android.widget.TextView;
 
-import com.android.launcher.R;
+import net.multipleandroidcoding.catapult.R;
 
 
 /**

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher2;
+package net.multipleandroidcoding.catapult;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -27,7 +27,7 @@ import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
 import android.widget.TextView;
 
-import com.android.launcher.R;
+import net.multipleandroidcoding.catapult.R;
 
 /**
  * This class adds a stroke to the generic TextView allowing the text to stand out better against

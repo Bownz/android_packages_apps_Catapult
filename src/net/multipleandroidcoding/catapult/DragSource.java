@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.android.launcher2;
+package net.multipleandroidcoding.catapult;
 
 import android.view.View;
 
-import com.android.launcher2.DropTarget.DragObject;
+import net.multipleandroidcoding.catapult.DropTarget.DragObject;
 
 /**
  * Interface defining an object that can originate a drag.

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher2;
+package net.multipleandroidcoding.catapult;
 
 import android.app.SearchManager;
 import android.appwidget.AppWidgetHost;
@@ -49,8 +49,8 @@ import android.util.AttributeSet;
 import android.util.Log;
 import android.util.Xml;
 
-import com.android.launcher.R;
-import com.android.launcher2.LauncherSettings.Favorites;
+import net.multipleandroidcoding.catapult.R;
+import net.multipleandroidcoding.catapult.LauncherSettings.Favorites;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;

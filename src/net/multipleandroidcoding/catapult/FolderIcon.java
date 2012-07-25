@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher2;
+package net.multipleandroidcoding.catapult;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -39,9 +39,9 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.android.launcher.R;
-import com.android.launcher2.DropTarget.DragObject;
-import com.android.launcher2.FolderInfo.FolderListener;
+import net.multipleandroidcoding.catapult.R;
+import net.multipleandroidcoding.catapult.DropTarget.DragObject;
+import net.multipleandroidcoding.catapult.FolderInfo.FolderListener;
 
 import java.util.ArrayList;
 

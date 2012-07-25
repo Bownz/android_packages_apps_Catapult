@@ -1,4 +1,4 @@
-package com.android.launcher2;
+package net.multipleandroidcoding.catapult;
 
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
@@ -13,7 +13,7 @@ import android.view.Gravity;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 
-import com.android.launcher.R;
+import net.multipleandroidcoding.catapult.R;
 
 public class AppWidgetResizeFrame extends FrameLayout {
     private LauncherAppWidgetHostView mWidgetView;

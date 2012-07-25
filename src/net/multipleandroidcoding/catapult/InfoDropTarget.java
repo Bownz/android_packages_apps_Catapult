@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher2;
+package net.multipleandroidcoding.catapult;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -26,7 +26,7 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.android.launcher.R;
+import net.multipleandroidcoding.catapult.R;
 
 public class InfoDropTarget extends ButtonDropTarget {
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher2;
+package net.multipleandroidcoding.catapult;
 
 import android.animation.Animator;
 import android.animation.AnimatorSet;
@@ -47,8 +47,8 @@ import android.view.animation.Animation;
 import android.view.animation.DecelerateInterpolator;
 import android.view.animation.LayoutAnimationController;
 
-import com.android.launcher.R;
-import com.android.launcher2.FolderIcon.FolderRingAnimator;
+import net.multipleandroidcoding.catapult.R;
+import net.multipleandroidcoding.catapult.FolderIcon.FolderRingAnimator;
 
 import java.util.ArrayList;
 import java.util.Arrays;

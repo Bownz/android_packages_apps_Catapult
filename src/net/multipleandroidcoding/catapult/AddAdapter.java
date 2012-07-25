@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher2;
+package net.multipleandroidcoding.catapult;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -27,7 +27,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-import com.android.launcher.R;
+import net.multipleandroidcoding.catapult.R;
 
 /**
  * Adapter showing the types of items that can be added to a {@link Workspace}.

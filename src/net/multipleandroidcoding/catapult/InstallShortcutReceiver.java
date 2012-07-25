@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher2;
+package net.multipleandroidcoding.catapult;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -25,7 +25,7 @@ import android.content.pm.PackageManager;
 import android.os.Debug;
 import android.widget.Toast;
 
-import com.android.launcher.R;
+import net.multipleandroidcoding.catapult.R;
 
 import java.util.ArrayList;
 import java.util.HashSet;

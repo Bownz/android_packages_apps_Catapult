@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher2;
+package net.multipleandroidcoding.catapult;
 
 import android.content.BroadcastReceiver;
 import android.content.ContentResolver;
@@ -25,7 +25,7 @@ import android.database.Cursor;
 import android.net.Uri;
 import android.widget.Toast;
 
-import com.android.launcher.R;
+import net.multipleandroidcoding.catapult.R;
 
 import java.net.URISyntaxException;
 import java.util.ArrayList;

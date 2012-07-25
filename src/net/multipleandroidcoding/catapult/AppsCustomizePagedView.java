@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher2;
+package net.multipleandroidcoding.catapult;
 
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
@@ -63,8 +63,8 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
-import com.android.launcher.R;
-import com.android.launcher2.DropTarget.DragObject;
+import net.multipleandroidcoding.catapult.R;
+import net.multipleandroidcoding.catapult.DropTarget.DragObject;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -902,7 +902,6 @@ public class AppsCustomizePagedView extends PagedViewWithDraggableItems implemen
         mForceDrawAllChildrenNextFrame = !toWorkspace;
     }
 
-    @Override
     public void onDropCompleted(View target, DragObject d, boolean isFlingToDelete,
             boolean success) {
         // Return early and wait for onFlingToDeleteCompleted if this was the result of a fling
@@ -1896,4 +1895,5 @@ public class AppsCustomizePagedView extends PagedViewWithDraggableItems implemen
 
         return String.format(getContext().getString(stringId), page + 1, count);
     }
+
 }

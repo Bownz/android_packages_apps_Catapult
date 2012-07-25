@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher2;
+package net.multipleandroidcoding.catapult;
 
 import android.appwidget.AppWidgetProviderInfo;
 import android.content.Context;
@@ -28,7 +28,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.android.launcher.R;
+import net.multipleandroidcoding.catapult.R;
 
 /**
  * The linear layout used strictly for the widget/wallpaper tab of the customization tray

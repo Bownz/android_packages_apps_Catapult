@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.android.launcher2;
+package net.multipleandroidcoding.catapult;
 
-import com.android.launcher.R;
+import net.multipleandroidcoding.catapult.R;
 
 import android.app.Activity;
 import android.app.DialogFragment;

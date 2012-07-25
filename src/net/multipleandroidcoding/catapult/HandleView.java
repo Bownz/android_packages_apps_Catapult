@@ -15,7 +15,7 @@
  */
 
 
-package com.android.launcher2;
+package net.multipleandroidcoding.catapult;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -24,7 +24,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.ImageView;
 
-import com.android.launcher.R;
+import net.multipleandroidcoding.catapult.R;
 
 public class HandleView extends ImageView {
     private static final int ORIENTATION_HORIZONTAL = 1;

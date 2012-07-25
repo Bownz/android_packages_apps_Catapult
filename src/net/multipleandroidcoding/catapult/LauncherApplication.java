@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher2;
+package net.multipleandroidcoding.catapult;
 
 import android.app.Application;
 import android.app.SearchManager;
@@ -26,7 +26,7 @@ import android.content.res.Configuration;
 import android.database.ContentObserver;
 import android.os.Handler;
 
-import com.android.launcher.R;
+import net.multipleandroidcoding.catapult.R;
 
 import java.lang.ref.WeakReference;
 

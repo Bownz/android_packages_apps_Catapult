@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher2;
+package net.multipleandroidcoding.catapult;
 
 import android.app.Activity;
 import android.app.Dialog;
@@ -41,7 +41,7 @@ import android.widget.ImageView;
 import android.widget.ListAdapter;
 import android.widget.SpinnerAdapter;
 
-import com.android.launcher.R;
+import net.multipleandroidcoding.catapult.R;
 
 import java.io.IOException;
 import java.util.ArrayList;

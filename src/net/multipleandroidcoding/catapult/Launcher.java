@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher2;
+package net.multipleandroidcoding.catapult;
 
 import android.accounts.Account;
 import android.accounts.AccountManager;
@@ -93,8 +93,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.common.Search;
-import com.android.launcher.R;
-import com.android.launcher2.DropTarget.DragObject;
+import net.multipleandroidcoding.catapult.R;
+import net.multipleandroidcoding.catapult.DropTarget.DragObject;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;

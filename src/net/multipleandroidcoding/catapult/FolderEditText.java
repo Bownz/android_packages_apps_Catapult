@@ -1,4 +1,4 @@
-package com.android.launcher2;
+package net.multipleandroidcoding.catapult;
 
 import android.content.Context;
 import android.util.AttributeSet;
