@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package net.multipleandroidcoding.catapult2.stress;
+package net.multipleandroidcoding.catapult.stress;
 
 
-import net.multipleandroidcoding.catapult2.Launcher;
+import net.multipleandroidcoding.catapult.Launcher;
 
 import android.content.pm.ActivityInfo;
 import android.os.SystemClock;

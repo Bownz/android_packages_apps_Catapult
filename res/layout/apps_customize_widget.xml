@@ -13,7 +13,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<net.multipleandroidcoding.catapult2.PagedViewWidget
+<net.multipleandroidcoding.catapult.PagedViewWidget
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:launcher="http://schemas.android.com/apk/res/net.multipleandroidcoding.catapult"
 
@@ -26,7 +26,7 @@
     android:focusable="true">
 
     <!-- The preview of the widget or shortcut. -->
-    <net.multipleandroidcoding.catapult2.PagedViewWidgetImageView
+    <net.multipleandroidcoding.catapult.PagedViewWidgetImageView
         android:id="@+id/widget_preview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -74,4 +74,4 @@
     </LinearLayout>
 
 
-</net.multipleandroidcoding.catapult2.PagedViewWidget>
+</net.multipleandroidcoding.catapult.PagedViewWidget>

@@ -13,7 +13,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<net.multipleandroidcoding.catapult2.Cling
+<net.multipleandroidcoding.catapult.Cling
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:launcher="http://schemas.android.com/apk/res/net.multipleandroidcoding.catapult"
     launcher:drawIdentifier="folder_portrait">
@@ -48,4 +48,4 @@
         android:layout_marginRight="36dp"
         android:layout_gravity="bottom|right"
         android:onClick="dismissFolderCling" />
-</net.multipleandroidcoding.catapult2.Cling>
+</net.multipleandroidcoding.catapult.Cling>

@@ -727,8 +727,7 @@ public final class Launcher extends Activity
     }
 
     // We can't hide the IME if it was forced open.  So don't bother
-    /*
-    @Override
+    
     public void onWindowFocusChanged(boolean hasFocus) {
         super.onWindowFocusChanged(hasFocus);
 
@@ -744,8 +743,22 @@ public final class Launcher extends Activity
                     });
             Log.d(TAG, "called hideSoftInputFromWindow from onWindowFocusChanged");
         }
+        else if (!hasFocus) {
+            // When another window occludes launcher (like the notification shade, or recents),
+            // ensure that we enable the wallpaper flag so that transitions are done correctly.
+            updateWallpaperVisibility(true);
+        } 
+        else {
+            // When launcher has focus again, disable the wallpaper if we are in AllApps
+            mWorkspace.postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    disableWallpaperIfInAllApps();
+                }
+            }, 500);
+        }
     }
-    */
+    
 
     private boolean acceptFilter() {
         final InputMethodManager inputManager = (InputMethodManager)
@@ -2636,7 +2649,7 @@ public final class Launcher extends Activity
         }
     }
 
-    @Override
+    /*@Override
     public void onWindowFocusChanged(boolean hasFocus) {
         if (!hasFocus) {
             // When another window occludes launcher (like the notification shade, or recents),
@@ -2651,7 +2664,7 @@ public final class Launcher extends Activity
                 }
             }, 500);
         }
-    }
+    }*/
 
     void showWorkspace(boolean animated) {
         showWorkspace(animated, null);

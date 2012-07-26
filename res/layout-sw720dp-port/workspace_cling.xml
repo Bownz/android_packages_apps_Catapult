@@ -13,7 +13,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<net.multipleandroidcoding.catapult2.Cling
+<net.multipleandroidcoding.catapult.Cling
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:launcher="http://schemas.android.com/apk/res/net.multipleandroidcoding.catapult"
     launcher:drawIdentifier="workspace_large">
@@ -49,4 +49,4 @@
         android:layout_gravity="right"
         android:gravity="right"
         android:text="@string/workspace_cling_open_all_apps" />
-</net.multipleandroidcoding.catapult2.Cling>
+</net.multipleandroidcoding.catapult.Cling>

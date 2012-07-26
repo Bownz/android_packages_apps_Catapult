@@ -14,7 +14,7 @@
      limitations under the License.
 -->
 
-<net.multipleandroidcoding.catapult2.DragLayer
+<net.multipleandroidcoding.catapult.DragLayer
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:launcher="http://schemas.android.com/apk/res/net.multipleandroidcoding.catapult"
 
@@ -24,7 +24,7 @@
     android:layout_height="match_parent">
 
     <!-- The workspace contains 5 screens of cells -->
-    <net.multipleandroidcoding.catapult2.Workspace
+    <net.multipleandroidcoding.catapult.Workspace
         android:id="@+id/workspace"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -44,7 +44,7 @@
         <include android:id="@+id/cell3" layout="@layout/workspace_screen" />
         <include android:id="@+id/cell4" layout="@layout/workspace_screen" />
         <include android:id="@+id/cell5" layout="@layout/workspace_screen" />
-    </net.multipleandroidcoding.catapult2.Workspace>
+    </net.multipleandroidcoding.catapult.Workspace>
 
     <include
         android:id="@+id/qsb_divider"
@@ -76,7 +76,7 @@
         android:id="@+id/qsb_bar"
         layout="@layout/qsb_bar" />
 
-    <net.multipleandroidcoding.catapult2.DrawableStateProxyView
+    <net.multipleandroidcoding.catapult.DrawableStateProxyView
         android:id="@+id/voice_button_proxy"
         android:layout_width="@dimen/qsb_bar_height"
         android:layout_height="@dimen/app_icon_size"
@@ -103,4 +103,4 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:visibility="gone" />
-</net.multipleandroidcoding.catapult2.DragLayer>
+</net.multipleandroidcoding.catapult.DragLayer>

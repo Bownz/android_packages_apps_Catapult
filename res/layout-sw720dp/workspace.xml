@@ -16,7 +16,7 @@
 
 <!-- The workspace contains 5 screens of cells -->
 
-<net.multipleandroidcoding.catapult2.Workspace
+<net.multipleandroidcoding.catapult.Workspace
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:launcher="http://schemas.android.com/apk/res/net.multipleandroidcoding.catapult"
     android:paddingLeft="@dimen/workspace_left_padding"
@@ -30,4 +30,4 @@
       <include android:id="@+id/cell3" layout="@layout/workspace_screen" />
       <include android:id="@+id/cell4" layout="@layout/workspace_screen" />
       <include android:id="@+id/cell5" layout="@layout/workspace_screen" />
-</net.multipleandroidcoding.catapult2.Workspace>
+</net.multipleandroidcoding.catapult.Workspace>

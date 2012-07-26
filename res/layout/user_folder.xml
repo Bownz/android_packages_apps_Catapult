@@ -14,7 +14,7 @@
      limitations under the License.
 -->
 
-<net.multipleandroidcoding.catapult2.Folder
+<net.multipleandroidcoding.catapult.Folder
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:launcher="http://schemas.android.com/apk/res/net.multipleandroidcoding.catapult"
     android:layout_width="wrap_content"
@@ -22,7 +22,7 @@
     android:orientation="vertical"
     android:background="@drawable/portal_container_holo">
 
-    <net.multipleandroidcoding.catapult2.CellLayout
+    <net.multipleandroidcoding.catapult.CellLayout
         android:id="@+id/folder_content"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -37,7 +37,7 @@
         launcher:cellWidth="@dimen/folder_cell_width"
         launcher:cellHeight="@dimen/folder_cell_height" />
 
-    <net.multipleandroidcoding.catapult2.FolderEditText
+    <net.multipleandroidcoding.catapult.FolderEditText
         android:id="@+id/folder_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -52,4 +52,4 @@
         android:gravity="center_horizontal"
         android:singleLine="true"
         android:imeOptions="flagNoExtractUi"/>
-</net.multipleandroidcoding.catapult2.Folder>
+</net.multipleandroidcoding.catapult.Folder>

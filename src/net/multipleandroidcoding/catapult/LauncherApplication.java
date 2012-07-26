@@ -36,7 +36,7 @@ public class LauncherApplication extends Application {
     private static boolean sIsScreenLarge;
     private static float sScreenDensity;
     private static int sLongPressTimeout = 300;
-    private static final String sSharedPreferencesKey = "net.multipleandroidcoding.catapult2.prefs";
+    private static final String sSharedPreferencesKey = "net.multipleandroidcoding.catapult.prefs";
     WeakReference<LauncherProvider> mLauncherProvider;
 
     @Override

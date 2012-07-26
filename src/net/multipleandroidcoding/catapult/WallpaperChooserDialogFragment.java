@@ -50,7 +50,7 @@ public class WallpaperChooserDialogFragment extends DialogFragment implements
         AdapterView.OnItemSelectedListener, AdapterView.OnItemClickListener {
 
     private static final String TAG = "Launcher.WallpaperChooserDialogFragment";
-    private static final String EMBEDDED_KEY = "net.multipleandroidcoding.catapult2."
+    private static final String EMBEDDED_KEY = "net.multipleandroidcoding.catapult."
             + "WallpaperChooserDialogFragment.EMBEDDED_KEY";
 
     private boolean mEmbedded;
@@ -194,7 +194,7 @@ public class WallpaperChooserDialogFragment extends DialogFragment implements
 
         final Resources resources = getResources();
         // Context.getPackageName() may return the "original" package name,
-        // net.multipleandroidcoding.catapult2; Resources needs the real package name,
+        // net.multipleandroidcoding.catapult; Resources needs the real package name,
         // net.multipleandroidcoding.catapult. So we ask Resources for what it thinks the
         // package name should be.
         final String packageName = resources.getResourcePackageName(R.array.wallpapers);
