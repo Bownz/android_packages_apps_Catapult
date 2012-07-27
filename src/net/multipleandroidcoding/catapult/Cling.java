@@ -45,14 +45,12 @@ public class Cling extends FrameLayout {
 
     private static String WORKSPACE_PORTRAIT = "workspace_portrait";
     private static String WORKSPACE_LANDSCAPE = "workspace_landscape";
-    private static String WORKSPACE_LARGE = "workspace_large";
     private static String WORKSPACE_CUSTOM = "workspace_custom";
 
     private static String ALLAPPS_PORTRAIT = "all_apps_portrait";
     private static String ALLAPPS_LANDSCAPE = "all_apps_landscape";
     private static String ALLAPPS_SORT_PORTRAIT = "all_apps_sort_portrait";
     private static String ALLAPPS_SORT_LANDSCAPE = "all_apps_sort_landscape";
-    private static String ALLAPPS_LARGE = "all_apps_large";
 
     private static String FOLDER_PORTRAIT = "folder_portrait";
     private static String FOLDER_LANDSCAPE = "folder_landscape";
@@ -193,7 +191,7 @@ public class Cling extends FrameLayout {
             mDrawIdentifier.equals(WORKSPACE_LARGE) ||
             mDrawIdentifier.equals(ALLAPPS_PORTRAIT) ||
             mDrawIdentifier.equals(ALLAPPS_LANDSCAPE) ||
-            mDrawIdentifier.equals(ALLAPPS_LARGE)) ||
+            mDrawIdentifier.equals(ALLAPPS_LARGE) ||
             mDrawIdentifier.equals(ALLAPPS_SORT_PORTRAIT) ||
             mDrawIdentifier.equals(ALLAPPS_SORT_LANDSCAPE) ||
             mDrawIdentifier.equals(ALLAPPS_SORT_LARGE)) {
