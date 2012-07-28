@@ -114,7 +114,7 @@ public final class PreferencesProvider {
                 final SharedPreferences preferences = context.getSharedPreferences(PREFERENCES_KEY, 0);
                 return preferences.getBoolean("ui_drawer_widgets_join_apps", true);
             }
-            public static class Scrolling {
+            /*public static class Scrolling {
                 public static AppsCustomizePagedView.TransitionEffect getTransitionEffect(Context context, String def) {
                     final SharedPreferences preferences = context.getSharedPreferences(PREFERENCES_KEY, 0);
                     return AppsCustomizePagedView.TransitionEffect.valueOf(
@@ -124,7 +124,7 @@ public final class PreferencesProvider {
                     final SharedPreferences preferences = context.getSharedPreferences(PREFERENCES_KEY, 0);
                     return preferences.getBoolean("ui_drawer_scrolling_fade_adjacent_screens", false);
                 }
-            }
+            }*/
             public static class Indicator {
                 public static boolean getShowScrollingIndicator(Context context) {
                    final SharedPreferences preferences = context.getSharedPreferences(PREFERENCES_KEY, 0);
