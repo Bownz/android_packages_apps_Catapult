@@ -156,7 +156,7 @@
     <dimen name="cell_layout_right_padding_land">0dp</dimen>
     <dimen name="cell_layout_top_padding_port">40dp</dimen>
     <dimen name="cell_layout_top_padding_land">0dp</dimen>
-    <dimen name="cell_layout_bottom_padding_port">@dimen/button_bar_height</dimen>
+    <dimen name="cell_layout_bottom_padding_port">20dp</dimen>
     <dimen name="cell_layout_bottom_padding_land">0dp</dimen>
 
 <!-- Workspace padding -->
@@ -166,14 +166,14 @@
     <dimen name="workspace_right_padding_land">@dimen/button_bar_height</dimen>
     <dimen name="workspace_top_padding_port">@dimen/qsb_bar_height_inset</dimen>
     <dimen name="workspace_top_padding_land">0dp</dimen>
-    <dimen name="workspace_bottom_padding_port">@dimen/button_bar_height</dimen>
+    <dimen name="workspace_bottom_padding_port">@dimen/button_bar_height_plus_padding</dimen>
     <dimen name="workspace_bottom_padding_land">0dp</dimen>
 
 <!-- Workspace cell size -->
     <dimen name="workspace_cell_width_land">106dp</dimen>
     <dimen name="workspace_cell_width_port">80dp</dimen>
     <dimen name="workspace_cell_height_land">74dp</dimen>
-    <dimen name="workspace_cell_height_port">80dp</dimen>
+    <dimen name="workspace_cell_height_port">85dp</dimen>
     <dimen name="workspace_width_gap_land">0dp</dimen>
     <dimen name="workspace_width_gap_port">0dp</dimen>
     <dimen name="workspace_height_gap_land">0dp</dimen>
